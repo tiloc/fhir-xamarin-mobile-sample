@@ -42,19 +42,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Hl7.Fhir.DSTU2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8b78034349ae6912, processorArchitecture=MSIL">
-      <HintPath>..\packages\Hl7.Fhir.DSTU21.0.90.6\lib\portable-net45+netcore45+wpa81+wp8\Hl7.Fhir.DSTU2.Core.dll</HintPath>
+      <HintPath>..\packages\Hl7.Fhir.DSTU21.0.90.6\lib\MonoAndroid\Hl7.Fhir.DSTU2.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Portable.DataAnnotations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6f21be3d5ccff8cd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Portable-Strong.DataAnnotations.1.0.0\lib\MonoAndroid\Portable.DataAnnotations.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
